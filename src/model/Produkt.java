@@ -1,6 +1,6 @@
 package model;
 
-public class Produkt{
+public class Produkt {
     String name;
     double preis;
     String herkunfstregion;

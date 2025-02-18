@@ -163,35 +163,50 @@ public class Console {
         // Initialisierung der Charaktere
         List<Charakter> charaktere = new ArrayList<>();
         List<Produkt> listeCharaktere1 = new ArrayList<>();
-        listeCharaktere1.add(produkte.get(0)); listeCharaktere1.add(produkte.get(3));
-        listeCharaktere1.add(produkte.get(8)); listeCharaktere1.add(produkte.get(5));
-        Charakter c1 = new Charakter(1, "Naruto Uzumaki", "Konoha",listeCharaktere1);
+        listeCharaktere1.add(produkte.get(0));
+        listeCharaktere1.add(produkte.get(3));
+        listeCharaktere1.add(produkte.get(8));
+        listeCharaktere1.add(produkte.get(5));
+        Charakter c1 = new Charakter(1, "Naruto Uzumaki", "Konoha", listeCharaktere1);
 
         List<Produkt> listeCharaktere2 = new ArrayList<>();
-        listeCharaktere2.add(produkte.get(2)); listeCharaktere2.add(produkte.get(4));
-        listeCharaktere2.add(produkte.get(6)); listeCharaktere2.add(produkte.get(1));
-        Charakter c2 = new Charakter(2, "Gaara", "Sunagakure",listeCharaktere2);
+        listeCharaktere2.add(produkte.get(2));
+        listeCharaktere2.add(produkte.get(4));
+        listeCharaktere2.add(produkte.get(6));
+        listeCharaktere2.add(produkte.get(1));
+        Charakter c2 = new Charakter(2, "Gaara", "Sunagakure", listeCharaktere2);
 
         List<Produkt> listeCharaktere3 = new ArrayList<>();
-        listeCharaktere3.add(produkte.get(1)); listeCharaktere3.add(produkte.get(2));
-        listeCharaktere3.add(produkte.get(3)); listeCharaktere3.add(produkte.get(7));
+        listeCharaktere3.add(produkte.get(1));
+        listeCharaktere3.add(produkte.get(2));
+        listeCharaktere3.add(produkte.get(3));
+        listeCharaktere3.add(produkte.get(7));
         listeCharaktere1.add(produkte.get(9));
-        Charakter c3 = new Charakter(3, "Kisame Hoshigaki", "Kirigakure",listeCharaktere3);
+        Charakter c3 = new Charakter(3, "Kisame Hoshigaki", "Kirigakure", listeCharaktere3);
 
         List<Produkt> listeCharaktere4 = new ArrayList<>();
-        listeCharaktere4.add(produkte.get(0)); listeCharaktere4.add(produkte.get(4));
-        listeCharaktere4.add(produkte.get(7)); listeCharaktere4.add(produkte.get(9));
-        Charakter c4 = new Charakter(4, "Deidara", "Iwagakure",listeCharaktere4);
+        listeCharaktere4.add(produkte.get(0));
+        listeCharaktere4.add(produkte.get(4));
+        listeCharaktere4.add(produkte.get(7));
+        listeCharaktere4.add(produkte.get(9));
+        Charakter c4 = new Charakter(4, "Deidara", "Iwagakure", listeCharaktere4);
 
         List<Produkt> listeCharaktere5 = new ArrayList<>();
-        listeCharaktere5.add(produkte.get(8)); listeCharaktere5.add(produkte.get(6));
-        listeCharaktere5.add(produkte.get(2)); listeCharaktere5.add(produkte.get(7));
-        Charakter c5 = new Charakter(5, "Itachi Uchiha", "Konoha",listeCharaktere5);
+        listeCharaktere5.add(produkte.get(8));
+        listeCharaktere5.add(produkte.get(6));
+        listeCharaktere5.add(produkte.get(2));
+        listeCharaktere5.add(produkte.get(7));
+        Charakter c5 = new Charakter(5, "Itachi Uchiha", "Konoha", listeCharaktere5);
 
-        charaktere.add(c1);charakterRepository.addElement(c1);
-        charaktere.add(c2);charakterRepository.addElement(c2);
-        charaktere.add(c3);charakterRepository.addElement(c3);
-        charaktere.add(c4);charakterRepository.addElement(c4);
-        charaktere.add(c5);charakterRepository.addElement(c5);
+        charaktere.add(c1);
+        charakterRepository.addElement(c1);
+        charaktere.add(c2);
+        charakterRepository.addElement(c2);
+        charaktere.add(c3);
+        charakterRepository.addElement(c3);
+        charaktere.add(c4);
+        charakterRepository.addElement(c4);
+        charaktere.add(c5);
+        charakterRepository.addElement(c5);
     }
 }
